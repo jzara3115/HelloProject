@@ -1,11 +1,11 @@
 body {
     font-family: 'poppins', sans-serif;
-    background: #c0d1c4;
+    background: #ffffff;
     margin: 0px;
 }
 
 .nav {
-    background-color: #333;
+    background-color: #193e4f;
     overflow: hidden;
 }
 
@@ -27,5 +27,17 @@ body {
 
 /* Add a color to the active/current link */
 .nav a.active {
-    background-color: #4CAF50;
+    background-color: #1faced;
     color: white;
+}  
+    
+   #button {
+  background-color: #193e4f; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
