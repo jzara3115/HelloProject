@@ -5,6 +5,7 @@ margin: 0px;
 background-size: 100%;
 }
 
+/* Make a background picture and detail it (resize and opacity)*/
 body::after {
   content: "";
   display: block;
@@ -21,9 +22,17 @@ background: url("Pictures/websiteocean.jpeg");
   right: 0;
 }
 
+#game {
+	position: absolute;
+	left: 100%;
+	float: right;
+    margin-left: -9%;
+}
+
 .nav {
 background-color: #193e4f;
 overflow: hidden;
+width:100%;
 }
 
 /* Style the links inside the navigation bar */
@@ -72,11 +81,4 @@ margin-left: -50px;
 background: black;
 color: white;
 text-align: center;
-}
-img{
-	width: 100%;
-	height: 700px;
-	opacity: 0.5;
-	z-index: -1;
-visibility: hidden;
 }
