@@ -159,4 +159,73 @@ left: 500px;
     left: 540px;
 }
 
+.image_header {
+	color: white;
+	font-size: 41px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+#java_logo {
+	position: absolute;
+	top: 2440;
+	left: 65px;
+width: 23%; 
+height: 23%;
+}
 
+#image_header1 {
+	position: absolute;
+	top: 2395px;
+	left: 75px;
+}
+
+#css_logo {
+		position: absolute;
+	top: 2445px;
+	left: 435px;
+width: 10.2%;
+height: 21%;
+}
+
+#image_header2 {
+	position: absolute;
+	top: 2395px;
+	left: 458px;
+}
+
+#html_logo {
+			position: absolute;
+	top: 2445px;
+	left: 720px;
+width: 10.6%;
+height: 21%;
+}
+
+#image_header3 {
+	position: absolute;
+	top: 2395px;
+	left: 725px;
+}
+
+#image_header4 {
+	position: absolute;
+	top: 2395px;
+	left: 1015px;
+}
+
+#unity_logo {
+width: 100%;
+height: 100%;
+}
+
+#whitebox {
+	position: absolute;
+	top: 2448px;
+	left: 1015px;
+	width: 140px;
+	height: 140px;
+background-color: white;
+}
