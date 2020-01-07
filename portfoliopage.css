@@ -5,8 +5,24 @@ margin: 0px;
 background-size: 100%;
 }
 
+
+.parallax {
+  /* The image used */
+  background-image: url("pictures/oceanbruh3.jpg");
+
+  /* Set a specific height */
+  width: 100%;   
+  height: 700px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* Make a background picture and detail it (resize and opacity)*/
-body::after {
+/*body::after {
   content: "";
   display: block;
   position: absolute;
@@ -20,7 +36,7 @@ background: url("pictures/oceanbruh3.jpg");
   left: 0;
   bottom: 0;
   right: 0;
-}
+} */
 
 .title {
 display: inline-block;
